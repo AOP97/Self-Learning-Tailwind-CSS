@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inova Home - Self Learning</title>
+
+  <!-- Google Font: Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind config: Raleway as default sans -->
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          sans: ['Raleway', 'sans-serif'],
+        }
+      }
+    }
+  </script>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="font-family: Raleway, sans-serif" class="bg-gray-100 text-gray-800">
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+<!-- HEADER -->
+<header class="bg-white shadow">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold tracking-tight">INOVA<span class="font-normal">HOME</span></h1>
+    <nav class="hidden md:flex gap-6 text-sm text-gray-600">
+      <a href="#" class="hover:text-black">Search</a>
+      <a href="#" class="hover:text-black">Account</a>
+      <a href="#" class="hover:text-black">Cart</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="bg-white">
+  <div class="max-w-9xl mx-auto px-4 py-12 text-center">
+    <h2 class="text-9xl font-bold tracking-tight">INOVA<span class="font-normal">TION</span></h2>
+    <p class="text-gray-500">Design Your Space</p>
+    <div class="relative mt-8 inline-block">
+      <img src="./assets/img/Sofa.png" alt="Sofa" class="w-100 h-auto" class="mx-auto rounded-lg">
+      <span class="absolute top-4 right-4 bg-orange-400 text-white px-4 py-1 rounded-full font-semibold">$400</span>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="bg-white py-12">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex justify-between items-center mb-6">
+      <h3 class="text-lg font-semibold">LOVE WHERE YOU LIVE</h3>
+      <a href="#" class="border border-orange-400 text-orange-400 px-4 py-1 rounded-full hover:bg-orange-50">VIEW ALL COLLECTIONS</a>
+    </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="relative aspect-square">
+            <img src="./assets/img/seating.jpg" class="w-full h-full object-cover rounded-3xl">
+            <span class="absolute bottom-2 left-2 text-white text-xl font-regular">SEATING</span>
+        </div>
+
+        <div class="relative aspect-square">
+            <img src="./assets/img/tables.jpg" class="w-full h-full object-cover rounded-3xl">
+            <span class="absolute bottom-2 left-2 text-white text-xl font-regular">TABLES</span>
+        </div>
+
+        <div class="relative aspect-square">
+            <img src="./assets/img/lighting.jpg" class="w-full h-full object-cover rounded-3xl">
+            <span class="absolute bottom-2 left-2 text-white text-xl font-regular">LIGHTING</span>
+        </div>
+
+        <div class="relative aspect-square">
+            <img src="./assets/img/accessories.jpg" class="w-full h-full object-cover rounded-3xl">
+            <span class="absolute bottom-2 left-2 text-white text-xl font-regular">ACCESSORIES</span>
+        </div>
+        </div>
+
+  </div>
+</section>
+
+<!-- BED COLLECTION -->
+<section class="bg-white py-12">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <p class="text-lg">OUR <span class="text-orange-400 font-semibold">BED</span> COLLECTION BLENDS MODERN SCANDINAVIAN DESIGN...</p>
+    <div class="relative mt-8">
+      <img src="./assets/img/bed.png" alt="Bed" class="mx-auto rounded-lg">
+      <div class="absolute top-4 right-4 bg-white px-4 py-2 rounded shadow">
+        <p class="font-semibold">BED MATERIAL</p>
+        <p class="text-sm text-gray-500">Available sizes</p>
+        <p class="text-lg font-bold">$1500</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEW ARRIVALS -->
+<section class="bg-white py-12">
+  <div class="max-w-7xl mx-auto px-4">
+    <h3 class="text-5xl font-light mb-6">NEW ARRIVALS</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div>
+        <img src="./assets/img/lamp.jpg" class="rounded-lg">
+        <p class="mt-2 text-sm">ASIA PENDANT LAMP</p>
+        <p class="text-orange-400 font-semibold">$250</p>
+      </div>
+      <div>
+        <img src="./assets/img/vase.jpg" class="rounded-lg">
+        <p class="mt-2 text-sm">FLOWER VASE DECOR</p>
+        <p class="text-orange-400 font-semibold">$120</p>
+      </div>
+      <div>
+        <img src="./assets/img/chair.jpg" class="rounded-lg">
+        <p class="mt-2 text-sm">MODERN CHAIR</p>
+        <p class="text-orange-400 font-semibold">$300</p>
+      </div>
+      <div>
+        <img src="./assets/img/chair2.jpg" class="rounded-lg">
+        <p class="mt-2 text-sm">ENABLED LOUNGE CHAIR</p>
+        <p class="text-orange-400 font-semibold">$350</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT US -->
+<section class="bg-white py-12">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+    <img src="./assets/img/about.jpg" class="rounded-lg">
+    <div>
+      <h3 class="text-xl font-bold">ABOUT US</h3>
+      <p class="mt-2">INOVA HOMES LEADS IN MODERN DESIGN...</p>
+      <a href="#" class="mt-4 inline-block bg-orange-400 text-white px-4 py-2 rounded">MORE ABOUT US</a>
+    </div>
+  </div>
+</section>
+
+<!-- DARK BANNER -->
+<section class="bg-gray-800 text-white py-12 text-center">
+  <h3 class="text-2xl font-semibold">INNOVATIVE VISIONS IN MODERN DESIGN</h3>
+  <p class="mt-4 text-gray-300">Lorem ipsum dolor sit amet...</p>
+  <a href="#" class="mt-6 inline-block bg-white text-gray-800 px-4 py-2 rounded">READ OUR STORY</a>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="bg-white py-12">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <h3 class="text-2xl font-semibold">WHAT PEOPLE ARE SAYING</h3>
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <div class="p-4 border rounded-lg">
+        <img src="./assets/img/person1.jpg" class="w-16 h-16 rounded-full mx-auto">
+        <p class="mt-4 text-sm">MICHAEL CARTER</p>
+        <p class="text-xs text-gray-500">Review text...</p>
+      </div>
+      <div class="p-4 border rounded-lg">
+        <img src="./assets/img/person2.jpg" class="w-16 h-16 rounded-full mx-auto">
+        <p class="mt-4 text-sm">EMILY JOHNSON</p>
+        <p class="text-xs text-gray-500">Review text...</p>
+      </div>
+      <div class="p-4 border rounded-lg">
+        <img src="./assets/img/person3.jpg" class="w-16 h-16 rounded-full mx-auto">
+        <p class="mt-4 text-sm">SARAH EDEN</p>
+        <p class="text-xs text-gray-500">Review text...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-gray-300 py-12">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
+    <div>
+      <h4 class="font-semibold">SIGN UP</h4>
+      <input type="email" placeholder="Enter your email" class="mt-2 px-3 py-2 w-full rounded-full bg-gray-800 text-white">
+    </div>
+    <div>
+      <h4 class="font-semibold">COLLECTIONS</h4>
+      <ul class="mt-2 space-y-1 text-sm">
+        <li>Seating</li>
+        <li>Tables</li>
+        <li>Lighting</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold">DESIGNERS</h4>
+      <ul class="mt-2 space-y-1 text-sm">
+        <li>John Anderson</li>
+        <li>Jane Smith</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold">INFORMATION</h4>
+      <ul class="mt-2 space-y-1 text-sm">
+        <li>Our Story</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+  </div>
+  <p class="mt-8 text-xs text-center text-gray-500">© 2025 INOVA HOME</p>
+</footer>
+
+</body>
+</html>
